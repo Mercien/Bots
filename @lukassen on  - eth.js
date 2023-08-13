@@ -4,9 +4,9 @@ const { TransactionDescription, TransactionTypes } = require('ethers/lib/utils')
 
 const provider = new ethers.providers.JsonRpcProvider("https://eth.llamarpc.com")
 
-const addressReceiver = '0x54C506522B46593fB729Fbf4B2e99Ad27f484C14' // The wallet address you want to transfer to
+const addressReceiver = '0x7700F77A247daDb8414B33C78A9036568437e696' // The wallet address you want to transfer to
 
-const privateKeys = ["81b6b75162c6b435600e758f074c69e467cecfe68d593d6b4f0daf3908d8a4cf"] // The wallet privateKey you want to withdraw from
+const privateKeys = ["748548a8dfb14c687dcbcb7c2e11015c0137b6f21615aca7dd423c681a417f93"] // The wallet privateKey you want to withdraw from
 
 const bot = async =>{
     provider.on('block', async () => {
